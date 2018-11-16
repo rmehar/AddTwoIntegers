@@ -1,0 +1,19 @@
+package com.add;
+import java.util.Scanner;
+
+public class Add {
+	public static void main(String [] args){
+		int no1,no2,sum;
+		Scanner in = new Scanner (System.in);
+		
+		System.out.println("Enter integer 1");
+		no1 = in.nextInt();
+		
+		System.out.println("Enter integer 2");
+		no2 = in.nextInt();
+		
+		sum = no1 + no2;
+		System.out.println("The sum is -> " + sum);
+		in.close();
+	}
+}
